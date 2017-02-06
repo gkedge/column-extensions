@@ -13,7 +13,7 @@ function bindColumn({
   column,
   extensions
 }) {
-  const matches = extensions.map(({ match, evaluate }) => {
+  const matches = extensions.map(({ match,  evaluate }) => {
     const col = {
       cell: {},
       header: {},
