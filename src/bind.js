@@ -20,7 +20,7 @@ function bindColumn({
       ...column
     };
 
-    return match(col) && evaluate(col);
+    return match(col)  && evaluate(col);
   });
 
   return mergeWith(column, ...matches);

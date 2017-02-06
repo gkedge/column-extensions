@@ -3,7 +3,7 @@
   "version": "8.8.0",
   "description": "Column extensions for Reactabular",
   "scripts": {
-    "test:all": "npm test && npm run test:lint",
+    "test:all": "ls && npm test && npm run test:lint",
     "test": "jest --",
     "test:coverage": "jest --coverage --",
     "test:lint": "eslint . --ext .js --cache",
